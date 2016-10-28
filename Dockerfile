@@ -1,4 +1,4 @@
-FROM jboss/wildfly:8.2.1.Final
+FROM jboss/wildfly:10.1.0.Final
 MAINTAINER José Luis Zamora Sánchez joseluiszamora@jlz.gmail.com
 EXPOSE 8080 9990
 RUN /opt/jboss/wildfly/bin/add-user.sh expertojava expertojava --silent
